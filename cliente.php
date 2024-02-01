@@ -49,7 +49,7 @@
     </head>
     <body>
         <h1> Generador de actividades </h1>
-        <p> ¿No sabes qué hacer? Esta página te dará ideas en inglés para que no vuelvas a aburrirte.</p>
+        <p> ¿No sabes qué hacer? Esta página te dará ideas en inglés para que no vuelvas a aburrirte nunca más.</p>
         <?php
             //Se realiza la peticion a la api que nos devuelve el JSON con la información de los posts
             $actividad_json = file_get_contents('http://www.boredapi.com/api/activity/');
